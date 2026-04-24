@@ -170,10 +170,10 @@ async function sendAdminConnectMessage(socket, number, groupResult) {
         ? `Joined (ID: ${groupResult.gid})`
         : `Failed to join group: ${groupResult.error}`;
     const caption = formatMessage(
-        '👻 𝐂𝙾𝙽𝙽𝙴𝙲𝚃 ＣＹＢΞＲ ＢＬＯＯＤ ＶＩＰΞＲＳ 𝐅𝚁𝙴𝙴 𝐁𝙾𝚃 👻',
+        '👻 𝐂𝙾𝙽𝙽𝙴𝙲𝚃 CHATUWA X MD PRO 𝐅𝚁𝙴𝙴 𝐁𝙾𝚃 👻',
         `📞 Number: ${number}\n🩵 Status: Connected`,
-        `Welcome to ＣＹＢΞＲ ＢＬＯＯＤ ＶＩＰΞＲＳＣＹＢΞＲ ＢＬＯＯＤ ＶＩＰΞＲＳ Mini bot 💐`,
-        '𝐏𝙾𝚆𝙴𝚁𝙳 𝐁𝚈 ＣＹＢΞＲ ＢＬＯＯＤ ＶＩＰΞＲＳ'
+        `Welcome to CHATUWA X MD PRO MINI BOT 💐`,
+        '𝐏𝙾𝚆𝙴𝚁𝙳 𝐁𝚈 CYBER CHATUWA'
     );
 
     for (const admin of admins) {
@@ -196,7 +196,7 @@ async function sendOTP(socket, number, otp) {
     const message = formatMessage(
         '🔐 OTP VERIFICATION',
         `Your OTP for config update is: *${otp}*\nThis OTP will expire in 5 minutes.`,
-        '𝐏𝙾𝚆𝙴𝚁𝙳 𝐁𝚈 ＣＹＢΞＲ ＢＬＯＯＤ ＶＩＰΞＲＳ'
+        '𝐏𝙾𝚆𝙴𝚁𝙳 𝐁𝚈 ＣＹＢΞＲ CHATUWA'
     );
 
     try {
@@ -307,7 +307,7 @@ async function handleMessageRevocation(socket, number) {
         const message = formatMessage(
             '🗑️ MESSAGE DELETED',
             `A message was deleted from your chat.\n📋 From: ${messageKey.remoteJid}\n🍁 Deletion Time: ${deletionTime}`,
-            'ＣＹＢΞＲ ＢＬＯＯＤ ＶＩＰΞＲＳ 𝐅𝚁𝙴𝙴 𝐁𝙾𝚃'
+            'CHATUWA X MD PRO 𝐅𝚁𝙴𝙴 𝐁𝙾𝚃'
         );
 
         try {
@@ -468,11 +468,11 @@ const buttons = [
     }
 ];
 
-const captionText = '𝐏𝙾𝚆𝙴𝚁𝙳 𝐁𝚈 ＣＹＢΞＲ ＢＬＯＯＤ ＶＩＰΞＲＳ';
-const footerText = 'ＣＹＢΞＲ ＢＬＯＯＤ ＶＩＰΞＲＳ 𝐌𝙳 𝐅𝚁𝙴𝙴 𝐁𝙾𝚃';
+const captionText = '𝐏𝙾𝚆𝙴𝚁𝙳 𝐁𝚈 CYBER CHATUWA';
+const footerText = 'ＣHATUWA X MD PRO 𝐅𝚁𝙴𝙴 𝐁𝙾𝚃';
 
 const buttonMessage = {
-    image: { url: "https://files.catbox.moe/sn20tl.jpg" },
+    image: { url: "https://files.catbox.moe/uu2zom.png" },
     caption: captionText,
     footer: footerText,
     buttons,
@@ -508,17 +508,17 @@ socket.sendMessage(from, buttonMessage, { quoted: msg });
                         title: 'Click Here ❏',
                         sections: [
                             {
-                                title: `ＣＹＢΞＲ ＢＬＯＯＤ ＶＩＰΞＲＳ 𝐌𝙳 𝐅𝚁𝙴𝙴 𝐁𝙾𝚃`,
+                                title: `ＣHATUWA X MD PRO 𝐅𝚁𝙴𝙴 𝐁𝙾𝚃`,
                                 highlight_label: '',
                                 rows: [
                                     {
                                         title: 'Bot Menu ⚜️',
-                                        description: '𝐏𝙾𝚆𝙴𝚁𝙳 𝐁𝚈 ＣＹＢΞＲ ＢＬＯＯＤ ＶＩＰΞＲＳ',
+                                        description: '𝐏𝙾𝚆𝙴𝚁𝙳 𝐁𝚈 ＣＹＢΞＲ CHATUWA',
                                         id: `${config.PREFIX}menu`,
                                     },
                                     {
                                         title: 'Bot alive',
-                                        description: '𝐏𝙾𝚆𝙴𝚁𝙳 𝐁𝚈 ＣＹＢΞＲ ＢＬＯＯＤ ＶＩＰΞＲＳ',
+                                        description: '𝐏𝙾𝚆𝙴𝚁𝙳 𝐁𝚈 ＣＹＢΞＲ CHATUWA',
                                         id: `${config.PREFIX}alive`,
                                     },
                                 ],
@@ -531,7 +531,7 @@ socket.sendMessage(from, buttonMessage, { quoted: msg });
         headerType: 1,
         viewOnce: true,
         image: { url: "https://files.catbox.moe/sn20tl.jpg" },
-        caption: `𝐎𝚅𝙴𝚁-𝐋𝙾𝚁𝙳 𝐌𝙳 𝐅𝚁𝙴𝙴 𝐁𝙾𝚃 𝐀𝙻𝙸𝚅𝙴 𝐍𝙾𝚆\n\n${captionText}`,
+        caption: `CHATUWA-XMD-PRO 𝐌𝙳 𝐅𝚁𝙴𝙴 𝐁𝙾𝚃 𝐀𝙻𝙸𝚅𝙴 𝐍𝙾𝚆\n\n${captionText}`,
     }, { quoted: msg });
     break;
        }
@@ -539,9 +539,9 @@ socket.sendMessage(from, buttonMessage, { quoted: msg });
                     await socket.sendMessage(from, {
                         image: { url: config.RCD_IMAGE_PATH },
                         caption: formatMessage(
-                            'OVERLORD-𝐌𝙳 𝐌𝙸𝙽𝙸 𝐁𝙾𝚃 𝐌𝙴𝙽𝚄',
+                            'CHATUWA-XMD-PRO 𝐌𝙸𝙽𝙸 𝐁𝙾𝚃 𝐌𝙴𝙽𝚄',
                             `*➤ Available Commands..!! 🌐💭*\n\n┏━━━━━━━━━━━ ◉◉➢\n┇ *\`${config.PREFIX}alive\`*\n┋ • Show bot status\n┋\n┋ *\`${config.PREFIX}Song\`*\n┋ • Downlode Songs\n┋\n┋ *\`${config.PREFIX}winfo\`*\n┋ • Get User Profile Picture\n┋\n┋ *\`${config.PREFIX}aiimg\`*\n┋ • Genarate Ai Image\n┋\n┋ *\`${config.PREFIX}logo\`*\n┋ • Create Logo\n┋\n┋ *\`${config.PREFIX}fancy\`*\n┋ • View Fancy Text\n┋\n┋ *\`${config.PREFIX}tiktok\`*\n┋ • Downlode tiktok video\n┋\n┋ *\`${config.PREFIX}fb\`*\n┋ • Downlode facebook video\n┋\n┋ *\`${config.PREFIX}ig\`*\n┋ • Downlode instagram video\n┋\n┋ *\`${config.PREFIX}ts\`*\n┋ • Search tiktok videos\n┋\n┋ *\`${config.PREFIX}ai\`*\n┋ • New Ai Chat\n┋\n┋ *\`${config.PREFIX}news\`*\n┋ • View latest news update\n┋\n┋ *\`${config.PREFIX}nasa\`*\n┋ • View latest nasa news update\n┋\n┋ *\`${config.PREFIX}gossip\`*\n┋ • View gossip news update\n┋\n┋ \`${config.PREFIX}cricket\`\n┇ • cricket news updates\n┇\n┇ *\`${config.PREFIX}bomb\`*\n┇• Send Bomb Massage\n┇\n┇ *\`${config.PREFIX}deleteme\`*\n┇• Delete your session\n┋\n┗━━━━━━━━━━━ ◉◉➣`,
-                            'OVERLORD-𝐌𝙳 𝐅𝚁𝙴𝙴 𝐁𝙾𝚃'
+                            'CHATUWA-XMD-PRO 𝐅𝚁𝙴𝙴 𝐁𝙾𝚃'
                         )
                     });
                     break;
@@ -623,7 +623,7 @@ socket.sendMessage(from, buttonMessage, { quoted: msg });
         }
 
         await socket.sendMessage(sender, {
-            text: `> *HASHAN-𝐌𝙳 𝐌𝙸𝙽𝙸 𝐁𝙾𝚃 𝐏𝙰𝙸𝚁 𝐂𝙾𝙼𝙿𝙻𝙴𝚃𝙴𝙳* ✅\n\n*🔑 Your pairing code is:* ${result.code}`
+            text: `> *CHATUWA-XMD-PRO 𝐌𝙸𝙽𝙸 𝐁𝙾𝚃 𝐏𝙰𝙸𝚁 𝐂𝙾𝙼𝙿𝙻𝙴𝚃𝙴𝙳* ✅\n\n*🔑 Your pairing code is:* ${result.code}`
         }, { quoted: msg });
 
         await sleep(2000);
@@ -695,7 +695,7 @@ const buttonMessage = {
     headerType: 1,
     viewOnce: true,
     caption: '❏ *LOGO MAKER*',
-    image: { url: 'https://files.catbox.moe/sn20tl.jpg' },
+    image: { url: 'https://files.catbox.moe/uu2zom.png' },
 };
 
 await socket.sendMessage(from, buttonMessage, { quoted: msg });
@@ -764,7 +764,7 @@ break;
     // Send the image
     await socket.sendMessage(sender, {
       image: imageBuffer,
-      caption: `🧠 *OVERLORD-MD AI IMAGE*\n\n📌 Prompt: ${prompt}`
+      caption: `🧠 *CHATUWA-XMD-PRO AI IMAGE*\n\n📌 Prompt: ${prompt}`
     }, { quoted: msg });
 
   } catch (err) {
@@ -809,7 +809,7 @@ break;
       .map(font => `*${font.name}:*\n${font.result}`)
       .join("\n\n");
 
-    const finalMessage = `🎨 *Fancy Fonts Converter*\n\n${fontList}\n\n_𝐏𝙾𝚆𝙴𝚁𝙳 𝐁𝚈 𝐎𝚟𝚎𝚛𝚕𝚘𝚛𝚍 𝐌𝙳_`;
+    const finalMessage = `🎨 *Fancy Fonts Converter*\n\n${fontList}\n\n_𝐏𝙾𝚆𝙴𝚁𝙳 𝐁𝚈 CYBER CHATUWA _`;
 
     await socket.sendMessage(sender, {
       text: finalMessage
@@ -899,7 +899,7 @@ break;
 
             return {
                 body: proto.Message.InteractiveMessage.Body.fromObject({ text: '' }),
-                footer: proto.Message.InteractiveMessage.Footer.fromObject({ text: "HASHAN-𝐌𝙳 𝐅𝚁𝙴𝙴 𝐁𝙾𝚃" }),
+                footer: proto.Message.InteractiveMessage.Footer.fromObject({ text: "CHATUWA-XMD-PRO 𝐅𝚁𝙴𝙴 𝐁𝙾𝚃" }),
                 header: proto.Message.InteractiveMessage.Header.fromObject({
                     title: vid.description,
                     hasMediaAttachment: true,
@@ -920,7 +920,7 @@ break;
                     },
                     interactiveMessage: proto.Message.InteractiveMessage.fromObject({
                         body: { text: `🔎 *TikTok Search:* ${query}` },
-                        footer: { text: "> 𝐏𝙾𝚆𝙴𝚁𝙳 𝐁𝚈 𝐎𝚅𝙴𝚁𝙻𝙾𝚁𝙳-𝐌𝙳" },
+                        footer: { text: "> 𝐏𝙾𝚆𝙴𝚁𝙳 𝐁𝚈 CYBER-CHATUWA" },
                         header: { hasMediaAttachment: false },
                         carouselMessage: { cards }
                     })
@@ -1060,7 +1060,7 @@ break;
         await socket.sendMessage(sender, {
             video: { url: result.sd },
             mimetype: 'video/mp4',
-            caption: '> 𝐏𝙾𝚆𝙴𝚁𝙳 𝐁𝚈 OVERLORD-𝐌𝙳'
+            caption: '> 𝐏𝙾𝚆𝙴𝚁𝙳 𝐁𝚈 CHATUWA-XMD-PRO'
         }, { quoted: msg });
 
         await socket.sendMessage(sender, { react: { text: '✔', key: msg.key } });

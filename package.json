@@ -1,7 +1,7 @@
 {
-  "name": "Overlord-md",
+  "name": "chatuwa-md",
   "version": "1.0.0",
-  "description": "Over lord md WhatsApp Bot with Multi-Number Support",
+  "description": "CHATUWA X MD PRO WhatsApp Bot with Multi-Number Support",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",

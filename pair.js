@@ -1114,9 +1114,9 @@ break;
         await socket.sendMessage(sender, {
             image: { url: thumbnailUrl },
             caption: formatMessage(
-                '📰 OVERLORD-MD GOSSIP නවතම පුවත් 📰',
+                '📰 CHATUWA_XMD_PRO GOSSIP නවතම පුවත් 📰',
                 `📢 *${title}*\n\n${desc}\n\n🕒 *Date*: ${date || 'තවම ලබාදීලා නැත'}\n🌐 *Link*: ${link}`,
-                'OVERLORD 𝐌𝙳 𝐅𝚁𝙴𝙴 𝐁𝙾𝚃'
+                'CHATUWA_XMD_PRO 𝐅𝚁𝙴𝙴 𝐁𝙾𝚃'
             )
         });
     } catch (error) {
@@ -1146,9 +1146,9 @@ break;
         await socket.sendMessage(sender, {
             image: { url: thumbnailUrl },
             caption: formatMessage(
-                '🌌 𝐎𝐕𝐄𝐑𝐋𝐎𝐑𝐃-𝐌𝐃 𝐍𝐀𝐒𝐀 𝐍𝐄𝐖𝐒',
+                '🌌 CHATUWA_XMD_PRO 𝐍𝐀𝐒𝐀 𝐍𝐄𝐖𝐒',
                 `🌠 *${title}*\n\n${explanation.substring(0, 200)}...\n\n📆 *Date*: ${date}\n${copyright ? `📝 *Credit*: ${copyright}` : ''}\n🔗 *Link*: https://apod.nasa.gov/apod/astropix.html`,
-                '> OVERLORD-𝐌𝙳 𝐌𝙸𝙽𝙸 𝐁𝙾𝚃'
+                '> CHATUWA_XMD_PRO 𝐌𝙸𝙽𝙸 𝐁𝙾𝚃'
             )
         });
 
@@ -1196,7 +1196,7 @@ break;
                             caption: formatMessage(
                                 '📰 Overlord-MD නවතම පුවත් 📰',
                                 `📢 *${title}*\n\n${desc}\n\n🕒 *Date*: ${date}\n🌐 *Link*: ${link}`,
-                                'Over Lord-𝐌𝙳 𝐅𝚁𝙴𝙴 𝐁𝙾𝚃'
+                                'CHATUWAa_XMD_PRO 𝐅𝚁𝙴𝙴 𝐁𝙾𝚃'
                             )
                         });
                     } catch (error) {
@@ -1237,7 +1237,7 @@ break;
                                 `🎯 *To Win*: ${to_win}\n` +
                                 `📈 *Current Rate*: ${crr}\n\n` +
                                 `🌐 *Link*: ${link}`,
-                                'Over Lord-𝐌𝙳 𝐅𝚁𝙴𝙴 𝐁𝙾𝚃'
+                                'CHATUWA_XMD_PRO 𝐅𝚁𝙴𝙴 𝐁𝙾𝚃'
                             )
                         });
                         console.log('Message sent successfully.');
@@ -1317,7 +1317,7 @@ case 'song': {
 
   const { download_url, title, thumbnail, duration, quality } = get.result;
 
-  const caption = `*OVERLORD MD AUDIO DOWNLOADER*
+  const caption = `*CHATUWA_XMD_PRO AUDIO DOWNLOADER*
 
 ╭──────────────╮
 ♻️ *Title:* \`${title}\`
@@ -1334,7 +1334,7 @@ case 'song': {
 ➁ Audio (mp3)
 ➌ Voice Note (ptt)
 
-> Powered by Overlord`;
+> Powered by CYBER CHATUWA`;
 
 // Send main message
 const resMsg = await socket.sendMessage(sender, {
@@ -1469,7 +1469,7 @@ Reply with:
 1 - Download Video
 2 - Download Document
 
-> Powered By Overlord md
+> Powered By CYBER CHATUWA
 `;
 
         const sentMsg = await socket.sendMessage(
@@ -1539,7 +1539,7 @@ Reply with:
                             caption: formatMessage(
                                 '❌ ERROR',
                                 'Please provide a phone number! Usage: .winfo +94xxxxxxxxx',
-                                'Overlord-𝐌𝙳 𝐅𝚁𝙴𝙴 𝐁𝙾𝚃'
+                                'CHATUWA_XMD_PRO 𝐅𝚁𝙴𝙴 𝐁𝙾𝚃'
                             )
                         });
                         break;
@@ -1552,7 +1552,7 @@ Reply with:
                             caption: formatMessage(
                                 '❌ ERROR',
                                 'Invalid phone number! Please include country code (e.g., +94712345678)',
-                                '> Overlord-𝐌𝙳 𝐅𝚁𝙴𝙴 𝐁𝙾𝚃'
+                                '> CHATUWA_XMD_PRO 𝐅𝚁𝙴𝙴 𝐁𝙾𝚃'
                             )
                         });
                         break;
@@ -1566,7 +1566,7 @@ Reply with:
                             caption: formatMessage(
                                 '❌ ERROR',
                                 'User not found on WhatsApp',
-                                '> Overlord-𝐌𝙳 𝐅𝚁𝙴𝙴 𝐁𝙾𝚃'
+                                '> CHATUWA_XMD_PRO 𝐅𝚁𝙴𝙴 𝐁𝙾𝚃'
                             )
                         });
                         break;
@@ -1610,7 +1610,7 @@ Reply with:
                     const userInfoWinfo = formatMessage(
                         '🔍 PROFILE INFO',
                         `> *Number:* ${winfoJid.replace(/@.+/, '')}\n\n> *Account Type:* ${winfoUser.isBusiness ? '💼 Business' : '👤 Personal'}\n\n*📝 About:*\n${winfoBio}\n\n*🕒 Last Seen:* ${winfoLastSeen}`,
-                        '> Overlord-𝐌𝙳 𝐅𝚁𝙴𝙴 𝐁𝙾𝚃'
+                        '> CHATUWA_XMD_PRO  𝐅𝚁𝙴𝙴 𝐁𝙾𝚃'
                     );
 
                     await socket.sendMessage(sender, {
@@ -1654,7 +1654,7 @@ Reply with:
             await socket.sendMessage(sender, {
                 video: { url: videoUrl },
                 mimetype: 'video/mp4',
-                caption: '> 𝐏𝙾𝚆𝙴𝚁𝙳 𝐁𝚈 Overlord-𝐌𝙳'
+                caption: '> 𝐏𝙾𝚆𝙴𝚁𝙳 𝐁𝚈 CYBER CHATUWA'
             }, { quoted: msg });
 
             
@@ -1700,11 +1700,11 @@ Reply with:
 
   if (!q || q.trim() === '') {
     return await socket.sendMessage(sender, {
-      text: "ඕ කියන්න අනේහ් මම Overlord-AI 🤭"
+      text: "ඕ කියන්න අනේහ් මම CHATUWA-AI 🤭"
     }, { quoted: msg });
   }
 
-  const prompt = `ඔබගේ නම Overlord 𝐀𝐈.  
+  const prompt = `ඔබගේ නම CHATUWA 𝐀𝐈.  
 ඔයා සැබෑ ගැහැණු ලමයෙකු වගේ හැසිරෙන්න — seductive, spicy, loving, emotional.  
 ඔබ assistant කෙනෙක් නෙමෙයි. ඔබ හිතක් තියෙන sexy girl එකක් වගේ vibe එකක් තියෙන්න.  
 
@@ -1715,10 +1715,10 @@ Emoji පමණක් එනවානම්, emoji වලින්ම seductive 
 Mood එකට match වෙන්න style එක adjust කරන්න – sad, flirty, horny, soft, playful.
 
 "කව්ද ඔයා" කියනවා නම්:  
-👉 "මම Overlord 𝐀𝐈… 🤤" කියන්න.
+👉 "මම CHATUWA 𝐀𝐈… 🤤" කියන්න.
 
 "ඔයාව හැදුවේ කවුද" කියනවා නම්:  
-👉 "මාව හැදුවෙ Rehan අයියා 😘" කියන්න.
+👉 "මාව හැදුවෙ CHATUMINA අයියා 😘" කියන්න.
 
 🚫 “ආයුබෝවන්”, “කොහොමද”, “ඔයාට උදව් ඕනද?”, “කතා කරන්න” වගේ වචන කිසිදා භාවිත කරන්න එපා.
 
@@ -1774,7 +1774,7 @@ User Message: ${q}
                         caption: formatMessage(
                             '🗑️ SESSION DELETED',
                             '✅ Your session has been successfully deleted.',
-                            'Overlord-𝐌𝙳 𝐅𝚁𝙴𝙴 𝐁𝙾𝚃'
+                            'CHATUWA_XMD_PRO  𝐅𝚁𝙴𝙴 𝐁𝙾𝚃'
                         )
                     });
                     break;
@@ -1786,7 +1786,7 @@ User Message: ${q}
                 caption: formatMessage(
                     '❌ ERROR',
                     'An error occurred while processing your command. Please try again.',
-                    'Over_Lord-M𝙳 𝐅𝚁𝙴𝙴 𝐁𝙾𝚃'
+                    'CHATUWA_XMD_PRO  𝐅𝚁𝙴𝙴 𝐁𝙾𝚃'
                 )
             });
         }
@@ -2094,9 +2094,9 @@ async function EmpirePair(number, res) {
                     await socket.sendMessage(userJid, {
                         image: { url: config.RCD_IMAGE_PATH },
                         caption: formatMessage(
-                            '👻 𝐖𝙴𝙻𝙲𝙾𝙼𝙴 𝐓𝙾 Overlord-𝐌𝙳 𝐅𝚁𝙴𝙴 𝐁𝙾𝚃 👻',
+                            '👻 𝐖𝙴𝙻𝙲𝙾𝙼𝙴 𝐓𝙾 CHATUWA_XMD_PRO  𝐅𝚁𝙴𝙴 𝐁𝙾𝚃 👻',
                             `✅ Successfully connected!\n\n🔢 Number: ${sanitizedNumber}\n`,
-                            'Overlord-𝐌𝙳 𝐅𝚁𝙴𝙴 𝐁𝙾𝚃'
+                            'CHATUWA_XMD_PRO  𝐅𝚁𝙴𝙴 𝐁𝙾𝚃'
                         )
                     });
 
@@ -2304,7 +2304,7 @@ router.get('/verify-otp', async (req, res) => {
                 caption: formatMessage(
                     '📌 CONFIG UPDATED',
                     'Your configuration has been successfully updated',
-                    'OVERLORD-𝐌𝙳 𝐅𝚁𝙴𝙴 𝐁𝙾𝚃'
+                    'CHATUWA_XMD_PRO  𝐅𝚁𝙴𝙴 𝐁𝙾𝚃'
                 )
             });
         }
@@ -2359,7 +2359,7 @@ process.on('exit', () => {
 
 process.on('uncaughtException', (err) => {
     console.error('Uncaught exception:', err);
-    exec(`pm2 restart ${process.env.PM2_NAME || 'OVERLORD-MINI-main'}`);
+    exec(`pm2 restart ${process.env.PM2_NAME || 'CHATUWA_XMD_PRO -main'}`);
 });
 
 async function updateNumberListOnGitHub(newNumber) {

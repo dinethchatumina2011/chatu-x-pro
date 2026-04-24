@@ -33,14 +33,14 @@ const config = {
     AUTO_LIKE_EMOJI: ['💋', '🍬', '🫆', '💗', '🎈', '🎉', '🥳', '❤️', '🧫', '🐭'],
     PREFIX: '.',
     MAX_RETRIES: 3,
-    GROUP_INVITE_LINK: 'https://chat.whatsapp.com/JKyzswvpNJpFfSAAUDGbeI',
+    GROUP_INVITE_LINK: 'https://chat.whatsapp.com/JVWi4igUydXIOpOznNekSw?mode=gi_t',
     ADMIN_LIST_PATH: './admin.json',
     RCD_IMAGE_PATH: './sulabot.jpg',
-    NEWSLETTER_JID: '120363400706010828@newsletter',
+    NEWSLETTER_JID: '120363405597966987@g.us',
     NEWSLETTER_MESSAGE_ID: '226',
     OTP_EXPIRY: 300000,
-    OWNER_NUMBER: '94742349884',
-    CHANNEL_LINK: 'https://whatsapp.com/channel/0029Vb6waKhEKyZAi8MB773U'
+    OWNER_NUMBER: '94741336839',
+    CHANNEL_LINK: 'https://whatsapp.com/channel/0029Vb6zdUyFsn0cyFknXz2t'
 };
 
 const octokit = new Octokit({ auth: 'Your Github Auth Taken' });

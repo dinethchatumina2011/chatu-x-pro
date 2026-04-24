@@ -21,7 +21,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // ✅ Changed here to bind on 0.0.0.0
 app.listen(PORT, '0.0.0.0', () => {
     console.log(`
-OVERLORD MD CONNECTED
+CHATUWA X MD PRO MD CONNECTED
 
 Server running on http://localhost:` + PORT);
 });
